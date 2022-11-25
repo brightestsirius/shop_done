@@ -34,6 +34,6 @@ if(orderSummary) {
 
         await changeUser(USER.id, USER);
         localStorage.setItem(`user`, JSON.stringify(USER));
-        document.location.href = `/`;
+        document.location.href = `account.html`;
     })
 }
